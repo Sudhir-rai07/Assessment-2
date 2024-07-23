@@ -76,7 +76,7 @@ const Login = () => {
           <span>
             Don't have an account?{" "}
             <Link to={"/register"} className="text-blue-500 hover:underline">
-              Login
+              Register
             </Link>
           </span>
         </div>
