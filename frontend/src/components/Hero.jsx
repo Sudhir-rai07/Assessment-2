@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="flex w-full justify-center mt-20 ">
-        <p className="w-[500px] backdrop-blur-lg px-4 py-4 rounded-lg text-2xl">Join with us with <span className="text-teal-500 font-poppins font-bold">Full Stack Internship Program</span> and Learn technologies with real world projects and boots your skills</p>
+        <p className="w-[500px] backdrop-blur-lg px-4 py-4 rounded-lg text-2xl">Join with us with <span className="text-teal-500 font-poppins font-bold">Full Stack Internship Program</span> and Learn technologies with real world projects and boost your skills</p>
       </div>
 
     </Fragment>
