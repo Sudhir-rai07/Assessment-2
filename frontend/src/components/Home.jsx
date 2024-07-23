@@ -7,7 +7,7 @@ import '../App.css';
 
 const Home = () => {
   return (
-    <div className="w-full h-full bg">
+    <div className="w-full h-full overflow-y-scroll bg">
       <Navbar />
       <Hero />
       <Footer />

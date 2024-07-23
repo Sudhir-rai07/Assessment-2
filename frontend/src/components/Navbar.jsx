@@ -1,10 +1,13 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import React, { Fragment, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+
 import axios from "axios";
 import { motion } from "framer-motion";
-import React, { Fragment, useState } from "react";
-import toast from "react-hot-toast";
+
 import { FaBars } from "react-icons/fa";
-import { Link, useNavigate } from "react-router-dom";
+import { TbLogout2 } from "react-icons/tb";
+import toast from "react-hot-toast";
 
 
 const Navbar = () => {
@@ -60,8 +63,7 @@ const Navbar = () => {
       toast.success("Logged out")
       
     }
-  });
-
+  });if(isError) console.log(error)
   const data = [
     { name: "Home", url: "" },
     { name: "Tasks", url: "tasks" },
@@ -120,7 +122,7 @@ const Navbar = () => {
       </motion.ul>
       {authUser && (
         <button className="px-2 text-xl text-red-500" onClick={Logout}>
-          {isPending ? "..." : "Logout"}
+          {isPending ? "..." : <TbLogout2 />}
         </button>
       )}
     </nav>

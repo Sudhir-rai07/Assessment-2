@@ -51,7 +51,7 @@ const ContactaPage = () => {
     <div className="w-full h-full bg-black">
       <Navbar />
 
-      <form className="w-[450px] mx-auto pt-28" onSubmit={handleSubmit}>
+      <form className="w-[350px] mx-auto pt-28" onSubmit={handleSubmit}>
         <h2 className="mb-8 text-3xl text-center text-teal-300">
           Contact Form
         </h2>
@@ -95,8 +95,6 @@ const ContactaPage = () => {
           )}
         </div>
       </form>
-
-      <Footer />
     </div>
   );
 };

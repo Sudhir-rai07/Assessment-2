@@ -47,7 +47,7 @@ const Tasks = () => {
     <div className="flex flex-col items-center w-full h-full bg-black">
       <Navbar />
       <form
-        className="w-[400px] justify-center items-center flex flex-col pt-28"
+        className="w-[350px] md:w-[400px] justify-center items-center flex flex-col pt-28"
         onSubmit={handleSubmit}
       >
         <h2 className="mb-8 text-4xl font-bold text-bold">
