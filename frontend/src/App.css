@@ -1,0 +1,13 @@
+.bg{
+  background: url("https://cdn.pixabay.com/photo/2024/02/22/02/45/computer-8589003_1280.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.feed-bg{
+  background: url("./Feed.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
